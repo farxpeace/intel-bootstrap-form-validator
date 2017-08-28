@@ -1,4 +1,6 @@
-console.log("ttttttttttttttt")
+console.groupCollapsed("File Loaded");
+console.log("Is load: Yes");
+console.groupEnd();
 /*
  *  jquery-boilerplate - v4.0.0
  *  A jump-start for jQuery plugins development.
@@ -23,7 +25,7 @@ console.log("ttttttttttttttt")
 		// minified (especially when both are regularly referenced in your plugin).
 
 		// Create the defaults once
-		var pluginName = "defaultPluginName",
+		var pluginName = "intel-bfv",
 			defaults = {
 				propertyName: "value"
 			};
